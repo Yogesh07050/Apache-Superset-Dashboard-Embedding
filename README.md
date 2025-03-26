@@ -7,6 +7,9 @@ This project demonstrates how to embed an Apache Superset dashboard into a React
 ### 1️⃣ Dockerized Superset Setup
 - Apache Superset is deployed using Docker along with PostgreSQL and Redis.
 - A `docker-compose.yml` file defines the services and their configurations.
+
+  command : `docker compose up`.
+  
 - Superset is configured to allow embedding through feature flags.
 
 ### 2️⃣ Superset Configuration
